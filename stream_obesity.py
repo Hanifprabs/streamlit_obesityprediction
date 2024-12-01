@@ -109,7 +109,7 @@ def insert_data_to_image(template_path, output_path, user_data):
     draw = ImageDraw.Draw(img)
 
     try:
-        font = ImageFont.truetype("arial.ttf", size=24)
+        font = ImageFont.truetype("arial.ttf", size=30)
     except:
         font = ImageFont.load_default()
 
